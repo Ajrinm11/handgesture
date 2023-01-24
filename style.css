@@ -1,0 +1,67 @@
+body
+{
+  color: white;
+  background-image: url("wallpaper.png");
+  background-size: contain;
+  font-family: cursive;
+  padding-top: 10px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 3px dashed rgb(255, 196, 213);
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading
+{
+  font-size: 22px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+  margin-top: 5px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 65%;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+label
+{
+  font-size: 14px;
+  color: #62b33a;
+  padding: 6px;
+  border-radius: 10px;
+  background-color:white;
+}
